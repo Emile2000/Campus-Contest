@@ -1,0 +1,351 @@
+* {margin: 0;padding: 0;box-sizing: border-box;}
+
+/*///////////////////////////////
+////////////HEADER///////////////
+////////////////////////////////*/
+
+header{
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+nav{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+header  div {
+    line-height: 35px;
+}
+
+#Emile{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#Dev{
+    color: #5EBDC4;
+    font-weight: bold;
+}
+
+nav > a {
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/*///////////////////////////////
+///////////Section 1////////////
+/////////////////////////////////*/
+
+#Section1{
+    background-color: #5EBDC4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 700px;
+    font-family: 'Exo 2', sans-serif;
+    
+}
+
+#photo_cv{
+    width: 420px;
+    height: 400px;
+    border-radius: 500px;
+}
+
+#Section1  div{
+    height: 50%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+#Section1  div h2{
+    font-size: 45px;
+    text-transform: uppercase;
+}
+
+#Section1  div p{
+    text-align: center;
+    font-size: 20px;
+}
+
+#Section1  div button{
+    width: 90px;
+    height: 40px;
+    border-radius: 50px;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+
+/*////////////////////////////
+//////////Section2///////////
+////////////////////////////*/
+
+#Section2{
+    display: flex;
+    height: 900px;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Exo 2', sans-serif;
+}
+
+h1{
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+#Section2 img{
+    width: 100px;
+    height: 100px;
+}
+
+#sdiv2{
+    display: flex;
+    width: 80%;
+    height: 30%;
+    justify-content: space-around;
+}
+
+#sdiv2 article{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#skills{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    align-self: flex-start;
+}
+
+#skills div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#skills p{
+    position: relative;
+}
+
+#skills p::before{
+    content: " ";
+    position: absolute;
+    top: 10px;
+    left:60px;
+    width: 200px;
+    border: 5px solid #5EBDC4;
+    
+}
+
+/*/////////////////////////////////////
+/////////////SECTION 3////////////////
+//////////////////////////////////////*/
+
+#Section3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #5EBDC4;
+    height: 900px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+#Section3 div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    height: 700px;
+}
+
+#Section3 article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 320px;
+    background-color: beige;
+    margin-bottom: 30px;
+}
+
+#Section3 article p{
+    width: 300px;
+    text-align: center;
+}
+
+#Section3 img {
+    width: 300px;
+    height: 200px;
+}
+
+
+/*//////////////////////////////////
+//////////////BLOG/////////////////
+//////////////////////////////////*/
+
+#Section4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 1000px;
+    font-family: 'Exo 2', sans-serif;
+    
+}
+
+#Section4 img{
+    width: 300px;
+    height: 200px;
+    
+}
+
+#sdiv4{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Section4 p{
+    padding: 20px;
+    
+}
+
+#Section4 article{
+    display: flex;
+    align-items: center;
+    background-color: beige;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+/*/////////////////////////////////////
+///////////////Section 5///////////////
+/////////////////////////////////////*/
+    
+#Section5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color:  #5EBDC4;
+    height: 700px;
+    font-family: 'Exo 2', sans-serif;
+}
+
+
+#Section5 img{
+    width: 75px;
+    height: 75px;
+    margin-right: 50px;
+}
+
+#sdiv5{
+    position: relative;
+    display: flex;
+    width: 80%;
+    height: 400px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#sdiv5 form{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#sdiv5 input{
+    border: none;
+    height: 28px;
+    width: 250px;
+    border-radius: 20px;
+}
+
+#msg{
+    border-radius: none;
+    width: 250px;
+    height: 100px;
+}
+
+#sdiv5 button{
+    width: 100px;
+    text-transform: uppercase;
+    height: 30px;
+    border: none;
+    background-color: blue;
+    color: white;
+    
+}
+
+#sdiv5 form::after{
+    content: " ";
+    position: absolute;
+    width: 2px;
+    height: 400px;
+    right: -150px;
+    border: 1px solid black;
+    
+}
+
+
+#sdiv5 aside{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+#Section5 aside div{
+    display: flex;
+    align-items: center;
+    width: 300px;
+  
+}
+
+/*///////////////////////////////////
+////////////FOOTER///////////////////
+////////////////////////////////////*/
+
+footer{
+    height: 80px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
