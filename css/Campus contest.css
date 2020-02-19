@@ -119,6 +119,10 @@ nav > a {
     font-family: 'Exo 2', sans-serif;
 }
 
+#champion{
+    font-weight: bold;
+}
+
 h1{
     font-size: 40px;
     text-transform: uppercase;
@@ -164,12 +168,62 @@ h1{
     position: relative;
 }
 
-#skills p::before{
+#skill1::before{
     content: " ";
     position: absolute;
     top: 10px;
     left:60px;
     width: 200px;
+    border: 5px solid #5EBDC4;
+    
+}
+
+#skill2::before{
+    content: " ";
+    position: absolute;
+    top: 10px;
+    left:60px;
+    width: 170px;
+    border: 5px solid #5EBDC4;
+    
+}
+
+#skill3::before{
+    content: " ";
+    position: absolute;
+    top: 10px;
+    left:60px;
+    width: 200px;
+    border: 5px solid #5EBDC4;
+    
+}
+
+#skill4::before{
+    content: " ";
+    position: absolute;
+    top: 10px;
+    left:60px;
+    width: 120px;
+    border: 5px solid #5EBDC4;
+    
+}
+
+#skill5::before{
+    content: " ";
+    position: absolute;
+    top: 10px;
+    left:60px;
+    width: 100px;
+    border: 5px solid #5EBDC4;
+    
+}
+
+#skill6::before{
+    content: " ";
+    position: absolute;
+    top: 10px;
+    left:60px;
+    width: 110px;
     border: 5px solid #5EBDC4;
     
 }
@@ -207,12 +261,12 @@ h1{
 }
 
 #Section3 article p{
-    width: 300px;
+    width: 250px;
     text-align: center;
 }
 
 #Section3 img {
-    width: 300px;
+    width: 400px;
     height: 200px;
 }
 
@@ -232,9 +286,10 @@ h1{
     
 }
 
-#Section4 img{
+.inK{
     width: 300px;
     height: 200px;
+    background-image: url(../img/console.png);
     
 }
 
@@ -258,6 +313,10 @@ h1{
     background-color: beige;
     justify-content: space-between;
     width: 100%;
+}
+
+.inK:hover{
+    left: -50px;
 }
 
 
@@ -404,6 +463,10 @@ footer a{
 
 	.nav-active {
 	transform: translateX(0%);
+}
+
+#sdiv5 form::after{
+    display: none;
 }
 
 @keyframes navLinkFade {

@@ -30,8 +30,12 @@ if(isset($_GET['id']) AND !empty($_GET['id'])) {
 
 <style>
 	h2{
-		color:red;
+		color:blue;
 	}
+
+   p{
+      font-weight: bold;
+   }
 </style>
 
 <h2>Commentaires:</h2>
